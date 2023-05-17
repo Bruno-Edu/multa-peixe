@@ -12,9 +12,9 @@ function Calcular(){
         valorMulta = e * multa;
         resultado = document.getElementById('multa').innerHTML = `O valor da multa é de ${valorMulta}R$ e o peso excedido foi de ${e} Kg`;
          
-    }else{
-        resultado = document.getElementById('sem-multa').innerText = `Não houve multa, o peso do peixe não atingiu o excesso`;
+    }else if(p <limite){
         
+        resultado = document.getElementById('sem-multa').innerText = `Não houve multa, o peso do peixe não atingiu o excesso`;
     }
 }
 
