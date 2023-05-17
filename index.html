@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Cálculo de Pesca</title>
+</head>
+<body>
+    <main>
+        <h1>Cálculo de Pesca</h1>
+        <p>De acordo com o regulamento de pesca do estado de São Paulo, o pescador que ultrapassar o limite de <strong>50kg</strong> pagará uma multa no valor de <strong>R$ 4,00</strong> por quilo excedente.</p>
+
+        <input type="number" id="peso" placeholder="Digite o KG pescado. Ex: 62,200">
+        <button name="calcular" onclick="Calcular()">Calcular</button>
+        
+        <p id="sem-multa"><strong id="multa"></strong></p>
+    </main>
+
+    <script src="calculo.js"></script>
+</body>
+</html>
