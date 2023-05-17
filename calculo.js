@@ -17,4 +17,4 @@ function Calcular(){
         resultado = document.getElementById('sem-multa').innerText = `Não houve multa, o peso do peixe não atingiu o excesso`;
     }
 }
-
+Calcular()
